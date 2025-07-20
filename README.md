@@ -1,4 +1,4 @@
-# 📊 SALES ANALYTICS DASHBOARD  | Strategic Insights from Sales Performance and Discount Contribution
+# SALES ANALYTICS DASHBOARD  | Strategic Insights from Sales Performance and Discount Contribution
 
 ## 📌 PROJECT OVERVIEW  
 This project explores a comprehensive sales dataset to uncover key performance drivers through data cleaning, modeling, and visualization. Using a modern data stack, including Supabase, dbt, and Superset (via Preset.io), I built an OLAP-based data model and interactive dashboard to monitor product performance, revenue trends, and discount impact.  
@@ -30,7 +30,7 @@ This database was designed using the OLAP Star Schema approach, with a central f
 
 Using dbt, all data transformations are modular, documented, and version controlled, ensuring a clean, consistent, and analysis-ready data pipeline. This structure enables efficient querying and seamless integration with BI tools.
 
-📁 Full schema definitions and relationships are defined in the [models/schema.yml](models/schema.yml) file using dbt's documentation features.
+Full schema definitions and relationships are defined in the [models/schema.yml](models/schema.yml) file using dbt's documentation features.
 
 
 
@@ -64,33 +64,28 @@ This dashboard presents a clear overview of sales performance, built from cleane
 ![Sales Analytics Dashboard](docs/dashboard.png)  
 
 ### 🔍 Key Components of the Dashboard:
-- 📈 **KPI Summary**  
-  Displays Gross Revenue, Nett Revenue, Products Sold, and Discount Given.  
+- 📈 **KPI Summary**: Displays Gross Revenue, Nett Revenue, Products Sold, and Discount Given.  
 
-- 📅 **Revenue Trends**  
-  Line charts to track gross and net revenue over time for pattern and seasonality analysis.  
+- 📅 **Revenue Trends**: Line charts to track gross and net revenue over time for pattern and seasonality analysis.  
 
-- 👥 **Customer & City Insights**  
-  Highlights top customers by revenue across cities.  
+- 👥 **Customer & City Insights**: Highlights top customers by revenue across cities.  
 
-- 🧑‍💼 **Salesperson Contribution**  
-  Shows Sales contribution per salesperson.  
+- 🧑‍💼 **Salesperson Contribution**: Shows Sales contribution per salesperson.  
 
-- 📦 **Product Performance**  
-  Lists top products by quantity sold and by revenue.  
+- 📦 **Product Performance**: Lists top products by quantity sold and by revenue.  
 
-- 🎯 **Discount Impact**  
-  Visualizes discount contributions to revenue and net profit at the product level.  
+- 🎯 **Discount Impact**: Visualizes discount contributions to revenue and net profit at the product level.  
 
 
 
 ## 💡 KEY INSIGHTS & RECOMMENDATION
-👉 For detailed analysis and  recommendations, please view the full [**Deck Presentation**](docs/DeckPresentation.pdf).
+For detailed analysis and  recommendations, please view the full [**Deck Presentation**](docs/DeckPresentation.pdf).
 
 
 
 ## 📄 ACKNOWLEDGEMENT  
 This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**. All dataset and analysis are used solely for evaluation within the recruitment process.
+
 Tools and platforms used:
 - [Supabase](https://supabase.com/)
 - [dbt](https://www.getdbt.com/)
