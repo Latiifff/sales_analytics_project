@@ -1,5 +1,4 @@
-# 📊 SALES ANALYTICS DASHBOARD  
-### **Strategic Insights from Sales Performance and Discount Contribution**
+# 📊 SALES ANALYTICS DASHBOARD  | Strategic Insights from Sales Performance and Discount Contribution
 
 ## 📌 PROJECT OVERVIEW  
 This project explores a comprehensive sales dataset to uncover key performance drivers through data cleaning, modeling, and visualization. Using a modern data stack, including Supabase, dbt, and Superset (via Preset.io), I built an OLAP-based data model and interactive dashboard to monitor product performance, revenue trends, and discount impact.  
