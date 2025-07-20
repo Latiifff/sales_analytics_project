@@ -1,0 +1,157 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: sales
+        description: "sales data imported from Supabase."
+
+models:
+  - name: dim_cust
+    description: "Contains customer identity and location information."
+    columns:
+      - name: kode_cust
+        tests: [not_null, unique]
+      - name: nama_cust
+        tests: [not_null]
+      - name: alamat_cust
+      - name: kode_kota
+      - name: nama_kota
+
+  - name: dim_date
+    description: "Calendar dimension providing date-related breakdowns for analysis."
+    columns:
+      - name: tgl_ref
+        tests: [not_null, unique]
+      - name: day
+      - name: month
+      - name: year
+      - name: week
+      - name: quarter
+
+  - name: dim_salesperson
+    description: "Contains information about sales representatives."
+    columns:
+      - name: kode_sales
+        tests: [not_null, unique]
+      - name: nama_sales
+        tests: [not_null]
+
+  - name: dim_product
+    description: "Contains product-level details including units and pricing."
+    columns:
+      - name: kode_barang
+        tests: [not_null]
+      - name: nama_jns_brg
+      - name: sat
+        tests: [not_null]
+      - name: sat_std
+        tests: [not_null]
+
+  - name: dim_tax
+    description: "Contains tax status and category information."
+    columns:
+      - name: pajak
+      - name: kategori_pajak
+
+  - name: fact_sales
+    description: "Central fact table containing detailed sales transactions used for analysis."
+    columns:
+      - name: no_urut
+        tests: [not_null, unique]
+      - name: ref
+        tests: [not_null]
+      - name: tgl_ref
+        tests: [not_null]
+      - name: no_ref
+        tests: [not_null]
+      - name: no_dok_ref
+        tests: [not_null]
+      - name: kode_cust
+        tests: [not_null]
+      - name: kode_barang
+        tests: [not_null]
+      - name: kode_sales
+        tests: [not_null]
+      - name: pajak
+      - name: kategori_pajak
+      - name: qty
+      - name: sat
+      - name: qty_std
+      - name: sat_std
+      - name: harga_plus
+      - name: harga_sbl_plus
+      - name: harga_unit_mu
+      - name: total_mu
+      - name: disc_1_pct
+      - name: disc_1_mu
+      - name: disc_2_pct
+      - name: disc_2_mu
+      - name: disc_3_pct
+      - name: disc_3_mu
+      - name: disc_4_mu
+      - name: disc_5_pct
+      - name: disc_5_mu
+      - name: disc_6_mu
+      - name: subtot_disc_mu
+      - name: subtot_mu
+      - name: hrg_unit_rill_mu
+      - name: total_rill_mu
+      - name: subtot_disc_rill_mu
+      - name: subtot_rill_mu
+      - name: disc_akh_mu
+      - name: subtot_net_mu
+      - name: pjk_mu
+      - name: subtot_net_pjk_mu
+
+  - name: stg_sales
+    description: "Cleaned and standardized sales data from source."
+    columns:
+      - name: "No. Urut"
+      - name: "Ref"
+      - name: "Tgl Ref"
+      - name: "No. Ref"
+      - name: "No. Dok Ref"
+      - name: "Kode Cust"
+      - name: "Nama Cust"
+      - name: "Alamat Cust"
+      - name: "Kode Panel"
+      - name: "Nama Panel"
+      - name: "Kode Sales"
+      - name: "Nama Sales"
+      - name: "Keterangan"
+      - name: "Pajak"
+      - name: "Kategori Pjk"
+      - name: "Kode Barang"
+      - name: "Nama Jns Brg"
+      - name: "Ket Ref"
+      - name: "Qty"
+      - name: "Sat"
+      - name: "Qty Std"
+      - name: "Sat Std"
+      - name: "Harga (+)"
+      - name: "Harga Sbl (+)"
+      - name: "Harga Unit(Mu)"
+      - name: "Total(MU)"
+      - name: "Disc. 1 (%)"
+      - name: "Disc. 1 (MU)"
+      - name: "Disc. 2 (%)"
+      - name: "Disc. 2 (MU)"
+      - name: "Disc. 3 (%)"
+      - name: "Disc. 3 (MU)"
+      - name: "Disc. 4 (MU)"
+      - name: "Disc. 5 (%)"
+      - name: "Disc. 5 (MU)"
+      - name: "Disc. 6 (MU)"
+      - name: "Subtot Disc(Mu)"
+      - name: "Subtot(Mu)"
+      - name: "Hrg Unit Riil(Mu)"
+      - name: "Total Riil(Mu)"
+      - name: "Subtot Disc Riil(Mu)"
+      - name: "Subtot Riil(Mu)"
+      - name: "Disc Akh(Mu)"
+      - name: "Subtot Net(Mu)"
+      - name: "Pjk(Mu)"
+      - name: "Subtot Net Pjk(Mu)"
+      - name: "Kode Kota"
+      - name: "Nama Kota"
