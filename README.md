@@ -17,7 +17,9 @@ The goal is to empower stakeholders with actionable insights to optimize sales s
 
 
 ## 🧱 DATABASE SCHEMA  
-![OLAP Schema](docs/olap_schema.png)  
+<p align="center">
+  <img src="docs/olap_schema.png" alt="OLAP Schema" />
+</p>
 
 This database was designed using the OLAP Star Schema approach, with a central fact table `fact_sales` that records key sales metrics, surrounded by six dimension tables that provide descriptive context:
 - `dim_cust`: customer information  
