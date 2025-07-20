@@ -8,7 +8,7 @@ The goal is to empower stakeholders with actionable insights to optimize sales s
 ### 📁 Documentation:
 🔗 [GitHub Repository](https://github.com/Latiifff/sales_analytics_project)  
 🔗 [Superset Dashboard (via Preset.io)](https://98eb9a2c.us1a.app.preset.io/superset/dashboard/8/)  
-🔗 [Presentation Deck](docs/DeckPresentation.pdf)
+🔗 [Deck Presentation](docs/DeckPresentation.pdf)
 
 
 ## 🔁 WORKFLOW  
@@ -76,6 +76,8 @@ This dashboard presents a clear overview of sales performance, built from cleane
 - 🎯 **Discount Impact**  
   Visualizes discount contributions to revenue and net profit at the product level.  
 
+## 💡 KEY INSIGHTS & RECOMMENDATION
+👉 For detailed analysis and  recommendations, please view the full [**Deck Presentation**](docs/DeckPresentation.pdf).
 
 ## 📄 ACKNOWLEDGEMENT  
 This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**. All dataset and analysis are used solely for evaluation within the recruitment process.
