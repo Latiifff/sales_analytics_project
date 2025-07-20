@@ -1,5 +1,5 @@
 # 📊 SALES ANALYTICS DASHBOARD  
-##Strategic Insights from Sales Performance and Discount Contribution
+## **Strategic Insights from Sales Performance and Discount Contribution**
 
 ---
 
@@ -83,9 +83,8 @@ This dashboard presents a clear overview of sales performance, built from cleane
 
 ---
 
-## 📄 LICENSE / ACKNOWLEDGEMENT  
-This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**.  
-All dataset and analysis are used solely for evaluation within the recruitment process.
+## 📄 ACKNOWLEDGEMENT  
+This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**. All dataset and analysis are used solely for evaluation within the recruitment process.
 
 ### Tools and platforms used:
 - [Supabase](https://supabase.com/)
