@@ -1,5 +1,5 @@
 # 📊 SALES ANALYTICS DASHBOARD  
-**##Strategic Insights from Sales Performance and Discount Contribution**
+##Strategic Insights from Sales Performance and Discount Contribution
 
 ---
 
