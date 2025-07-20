@@ -1,8 +1,6 @@
 # 📊 SALES ANALYTICS DASHBOARD  
 ## **Strategic Insights from Sales Performance and Discount Contribution**
 
----
-
 ## 📌 PROJECT OVERVIEW  
 This project explores a comprehensive sales dataset to uncover key performance drivers through data cleaning, modeling, and visualization. Using a modern data stack, including Supabase, dbt, and Superset (via Preset.io), I built an OLAP-based data model and interactive dashboard to monitor product performance, revenue trends, and discount impact.  
 The goal is to empower stakeholders with actionable insights to optimize sales strategy, evaluate promotion effectiveness, and enhance revenue consistency.
@@ -13,12 +11,10 @@ The goal is to empower stakeholders with actionable insights to optimize sales s
 - 🔗 [Superset Dashboard (via Preset.io)](#)  
 - 🔗 [Presentation Deck](#)
 
----
 
 ## 🔁 WORKFLOW  
 ![Workflow](docs/workflow.png)
 
----
 
 ## 🧱 DATABASE SCHEMA  
 ![OLAP Schema](docs/olap_schema.png)  
@@ -32,7 +28,6 @@ This database was designed using the OLAP Star Schema approach, with a central f
 
 Using dbt, all data transformations are modular, documented, and version controlled, ensuring a clean, consistent, and analysis-ready data pipeline. This structure enables efficient querying and seamless integration with BI tools.
 
----
 
 ## ❓ PROBLEM STATEMENT & OBJECTIVES
 
@@ -55,7 +50,6 @@ Visualize insights with filters, KPIs, and charts that are clear, insightful, an
 5️⃣ **Document and communicate**  
 Provide clear documentation (`README.md`, `schema.yml`) to explain data structure, assumptions, and business logic behind the dashboard.
 
----
 
 ## 📊 DASHBOARD RESULT  
 This dashboard presents a clear overview of sales performance, built from cleaned and transformed raw data using dbt in an OLAP star schema. Visualized with Preset (Superset), it enables stakeholders to track revenue trends, product performance, customer contributions, and the impact of discounts effectively.
@@ -81,7 +75,6 @@ This dashboard presents a clear overview of sales performance, built from cleane
 - 🎯 **Discount Impact**  
   Visualizes discount contributions to revenue and net profit at the product level.  
 
----
 
 ## 📄 ACKNOWLEDGEMENT  
 This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**. All dataset and analysis are used solely for evaluation within the recruitment process.
