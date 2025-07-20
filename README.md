@@ -79,7 +79,7 @@ This dashboard presents a clear overview of sales performance, built from cleane
 
 
 ## 💡 KEY INSIGHTS & RECOMMENDATION
-For detailed analysis and  recommendations, please view the full [**Deck Presentation**](docs/DeckPresentation.pdf).
+For a complete summary of this project including the project overview, data pipeline workflow, database schema, dashboard results, key insights & recommendations, and final conclusion — please refer to the [Deck Presentation](docs/DeckPresentation.pdf).
 
 
 
