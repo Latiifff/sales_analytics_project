@@ -30,6 +30,9 @@ This database was designed using the OLAP Star Schema approach, with a central f
 
 Using dbt, all data transformations are modular, documented, and version controlled, ensuring a clean, consistent, and analysis-ready data pipeline. This structure enables efficient querying and seamless integration with BI tools.
 
+📁 Full schema definitions and relationships are defined in the [models/schema.yml](models/schema.yml) file using dbt's documentation features.
+
+
 
 
 ## ❓ PROBLEM STATEMENT & OBJECTIVES
