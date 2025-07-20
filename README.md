@@ -88,11 +88,10 @@ This dashboard presents a clear overview of sales performance, built from cleane
 
 ## 📄 ACKNOWLEDGEMENT  
 This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**. All dataset and analysis are used solely for evaluation within the recruitment process.
-
-### Tools and platforms used:
+Tools and platforms used:
 - [Supabase](https://supabase.com/)
 - [dbt](https://www.getdbt.com/)
 - [Preset (Apache Superset)](https://preset.io/)
 - [Google Colab](https://colab.research.google.com/)
 
-Special thanks to the PT ICTindo Mitra Solusi team for the opportunity and challenge.
+Special thanks to the **PT ICTindo Mitra Solusi** team for the opportunity and challenge.
