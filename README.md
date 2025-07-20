@@ -11,8 +11,10 @@ The goal is to empower stakeholders with actionable insights to optimize sales s
 🔗 [Deck Presentation](docs/DeckPresentation.pdf)
 
 
+
 ## 🔁 WORKFLOW  
 ![Workflow](docs/workflow.png)
+
 
 
 ## 🧱 DATABASE SCHEMA  
@@ -28,6 +30,7 @@ This database was designed using the OLAP Star Schema approach, with a central f
 - `dim_tax`: tax information  
 
 Using dbt, all data transformations are modular, documented, and version controlled, ensuring a clean, consistent, and analysis-ready data pipeline. This structure enables efficient querying and seamless integration with BI tools.
+
 
 
 ## ❓ PROBLEM STATEMENT & OBJECTIVES
@@ -50,6 +53,7 @@ Visualize insights with filters, KPIs, and charts that are clear, insightful, an
 
 5️⃣ **Document and communicate**  
 Provide clear documentation (`README.md`, `schema.yml`) to explain data structure, assumptions, and business logic behind the dashboard.
+
 
 
 ## 📊 DASHBOARD RESULT  
@@ -76,8 +80,12 @@ This dashboard presents a clear overview of sales performance, built from cleane
 - 🎯 **Discount Impact**  
   Visualizes discount contributions to revenue and net profit at the product level.  
 
+
+
 ## 💡 KEY INSIGHTS & RECOMMENDATION
 👉 For detailed analysis and  recommendations, please view the full [**Deck Presentation**](docs/DeckPresentation.pdf).
+
+
 
 ## 📄 ACKNOWLEDGEMENT  
 This project was developed as part of a technical assessment for **PT ICTindo Mitra Solusi**. All dataset and analysis are used solely for evaluation within the recruitment process.
