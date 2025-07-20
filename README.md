@@ -6,10 +6,9 @@ This project explores a comprehensive sales dataset to uncover key performance d
 The goal is to empower stakeholders with actionable insights to optimize sales strategy, evaluate promotion effectiveness, and enhance revenue consistency.
 
 ### 📁 Documentation:
-- 🔗 [GitHub Repository](#)  
-- 🔗 [Supabase Database](#)  
-- 🔗 [Superset Dashboard (via Preset.io)](#)  
-- 🔗 [Presentation Deck](#)
+🔗 [GitHub Repository](https://github.com/Latiifff/sales_analytics_project)  
+🔗 [Superset Dashboard (via Preset.io)](https://98eb9a2c.us1a.app.preset.io/superset/dashboard/8/)  
+🔗 [Presentation Deck](docs/DeckPresentation.pdf)
 
 
 ## 🔁 WORKFLOW  
